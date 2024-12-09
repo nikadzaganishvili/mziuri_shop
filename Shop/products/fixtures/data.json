@@ -1,0 +1,182 @@
+[
+  {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+      "name": "Laptop",
+      "price": "999.99",
+      "description": "High performance laptop with 16GB RAM and 512GB SSD.",
+      "create_date": "2024-12-09T12:00:00Z",
+      "views": 100,
+      "stock": 50
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+      "name": "Smartphone",
+      "price": "799.99",
+      "description": "Latest model with OLED display and 128GB storage.",
+      "create_date": "2024-12-09T12:10:00Z",
+      "views": 200,
+      "stock": 30
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+      "name": "Smartwatch",
+      "price": "199.99",
+      "description": "Fitness-focused smartwatch with heart rate monitor.",
+      "create_date": "2024-12-09T12:15:00Z",
+      "views": 150,
+      "stock": 100
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+      "name": "Bluetooth Headphones",
+      "price": "89.99",
+      "description": "Noise-cancelling Bluetooth headphones with 20 hours of battery life.",
+      "create_date": "2024-12-09T12:20:00Z",
+      "views": 250,
+      "stock": 75
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+      "name": "Wireless Mouse",
+      "price": "24.99",
+      "description": "Ergonomic wireless mouse with precision tracking.",
+      "create_date": "2024-12-09T12:25:00Z",
+      "views": 500,
+      "stock": 200
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+      "name": "Mechanical Keyboard",
+      "price": "129.99",
+      "description": "RGB mechanical keyboard with tactile switches.",
+      "create_date": "2024-12-09T12:30:00Z",
+      "views": 75,
+      "stock": 40
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+      "name": "Gaming Mouse",
+      "price": "59.99",
+      "description": "High-DPI gaming mouse with customizable buttons.",
+      "create_date": "2024-12-09T12:35:00Z",
+      "views": 350,
+      "stock": 60
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+      "name": "Laptop Sleeve",
+      "price": "19.99",
+      "description": "Protective sleeve for 13-inch laptops.",
+      "create_date": "2024-12-09T12:40:00Z",
+      "views": 600,
+      "stock": 150
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+      "name": "4K Monitor",
+      "price": "349.99",
+      "description": "Ultra HD 4K monitor with IPS display and wide color gamut.",
+      "create_date": "2024-12-09T12:45:00Z",
+      "views": 90,
+      "stock": 30
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+      "name": "External Hard Drive",
+      "price": "69.99",
+      "description": "1TB external hard drive with USB 3.0 connectivity.",
+      "create_date": "2024-12-09T12:50:00Z",
+      "views": 500,
+      "stock": 80
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 11,
+    "fields": {
+      "name": "Digital Camera",
+      "price": "549.99",
+      "description": "Compact digital camera with 24MP resolution and optical zoom.",
+      "create_date": "2024-12-09T12:55:00Z",
+      "views": 180,
+      "stock": 40
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 12,
+    "fields": {
+      "name": "Action Camera",
+      "price": "199.99",
+      "description": "Waterproof action camera with 4K recording capability.",
+      "create_date": "2024-12-09T13:00:00Z",
+      "views": 120,
+      "stock": 90
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 13,
+    "fields": {
+      "name": "Portable Speaker",
+      "price": "49.99",
+      "description": "Bluetooth portable speaker with 12-hour battery life.",
+      "create_date": "2024-12-09T13:05:00Z",
+      "views": 400,
+      "stock": 150
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 14,
+    "fields": {
+      "name": "Smart Thermostat",
+      "price": "129.99",
+      "description": "Smart home thermostat with WiFi connectivity.",
+      "create_date": "2024-12-09T13:10:00Z",
+      "views": 250,
+      "stock": 60
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 15,
+    "fields": {
+      "name": "USB-C Hub",
+      "price": "34.99",
+      "description": "USB-C hub with 4 ports and fast data transfer speeds.",
+      "create_date": "2024-12-09T13:15:00Z",
+      "views": 300,
+      "stock": 120
+    }
+  }
+]

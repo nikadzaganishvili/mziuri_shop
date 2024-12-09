@@ -30,7 +30,29 @@
         </select>
     </div>
     <div class="col-12">
-        <button type="submit" class="btn btn-primary">Sign in</button>
+        <button type="submit" class="btn btn-primary">Search</button>
     </div>
 </form>
+
+
+<div class="container">
+    <div class="row row-cols-4 mt-3 g-3">
+        {% for product in products %}
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQePmwSppkLj1_vxJwDOgeEc3xzSuT85xKYcg&s"
+                     class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{ product.name }}</h5>
+                    <p class="card-text fw-bold">{{ product.price }} $</p>
+                    <p class="card-text">{{ product.description }}</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+
 {% endblock %}
