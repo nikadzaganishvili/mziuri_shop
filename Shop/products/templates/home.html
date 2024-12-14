@@ -1,17 +1,17 @@
-{% extends 'base.html' %}
+{% extends  'base.html' %}
 
 {% block content %}
 <form class="row g-3">
     <div class="col-md-6">
-        <label for="product_name" class="form-label">Product name</label>
+        <label for="product_name" class="form-label">Product Name</label>
         <input type="text" class="form-control" id="product_name">
     </div>
     <div class="col-md-3">
-        <label for="min_price" class="form-label">min_price</label>
+        <label for="min_price" class="form-label">Min Price</label>
         <input type="number" class="form-control" id="min_price">
     </div>
     <div class="col-md-3">
-        <label for="max_price" class="form-label">max_price</label>
+        <label for="max_price" class="form-label">Max Price</label>
         <input type="number" class="form-control" id="max_price">
     </div>
     <div class="col-6">
@@ -22,11 +22,10 @@
         <label for="inputState" class="form-label">Category</label>
         <select id="inputState" class="form-select">
             <option selected>Choose...</option>
-            <option>clothe</option>
-            <option>shoes</option>
-            <option>camping</option>
-            <option>electronics</option>
-
+            <option>Clothes</option>
+            <option>Shoes</option>
+            <option>Camping</option>
+            <option>Electronics</option>
         </select>
     </div>
     <div class="col-12">
@@ -38,21 +37,18 @@
 <div class="container">
     <div class="row row-cols-4 mt-3 g-3">
         {% for product in products %}
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQePmwSppkLj1_vxJwDOgeEc3xzSuT85xKYcg&s"
-                     class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">{{ product.name }}</h5>
-                    <p class="card-text fw-bold">{{ product.price }} $</p>
-                    <p class="card-text">{{ product.description }}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://static.wikia.nocookie.net/shrek/images/5/5a/Shrek_superslam.png/revision/latest/scale-to-width-down/381?cb=20100927010617" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ product.name }}</h5>
+                        <p class="card-text fw-bold">{{ product.price }} $</p>
+                        <p class="card-text">{{ product.description }}</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
             </div>
-        </div>
         {% endfor %}
     </div>
 </div>
-
-
 {% endblock %}
